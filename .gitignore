@@ -3,22 +3,10 @@
 # For useful gitignore templates see: https://github.com/github/gitignore
 
 # Salesforce cache
-.classpath/
 .sf/
 .sfdx/
-.vscode/
-.idea/
-.project/
 .salesforce/
 .localdevserver/
-deploy-options.json
-.tern-project
-.settings
-selenium-client-jars/
-test/artifacts
-assets/server.key
-assets/env-var-values.txt
-assets/server.key.hex
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
@@ -32,10 +20,10 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.history/
 
 # Dependency directories
 node_modules/
+yarn.lock
 
 # Eslint cache
 .eslintcache
@@ -51,3 +39,24 @@ $RECYCLE.BIN/
 
 # Local environment variables
 .env
+
+# VS Code project settings
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.project/
+.history/
+.classpath/
+
+# Codecov
+coverage
+
+# Additional folders
+deploy-options.json
+.tern-project
+.settings
+selenium-client-jars/
+test/artifacts
+assets/server.key
+assets/env-var-values.txt
+assets/server.key.hex
