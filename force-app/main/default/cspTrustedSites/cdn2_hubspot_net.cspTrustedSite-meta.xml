@@ -3,7 +3,7 @@
     <context>Communities</context>
     <description>cdn2_hubspot_net Trusted Site Added Via Community Builder</description>
     <endpointUrl>https://cdn2.hubspot.net</endpointUrl>
-    <isActive>true</isActive>
+    <isActive>false</isActive>
     <isApplicableToConnectSrc>true</isApplicableToConnectSrc>
     <isApplicableToFontSrc>true</isApplicableToFontSrc>
     <isApplicableToFrameSrc>true</isApplicableToFrameSrc>
