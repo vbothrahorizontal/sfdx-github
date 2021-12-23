@@ -3,7 +3,7 @@
     <context>Communities</context>
     <description>image_shutterstock_com Trusted Site Added Via Community Builder</description>
     <endpointUrl>https://image.shutterstock.com</endpointUrl>
-    <isActive>true</isActive>
+    <isActive>false</isActive>
     <isApplicableToConnectSrc>true</isApplicableToConnectSrc>
     <isApplicableToFontSrc>true</isApplicableToFontSrc>
     <isApplicableToFrameSrc>true</isApplicableToFrameSrc>
